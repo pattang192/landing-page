@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+div {
+    border: 2px solid red;
+}
+
+.container-one {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 160px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.900);
+    padding: 8px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 104px 0;
+    gap: 32px;
+}
+
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext {
+    color: rgba(255, 255, 255, 0.900);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 8px 32px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.image-one {
+    width: 544px;
+    height: 50%;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.title {
+color: #1F2937;
+font-size: 36px;
+font-weight: 900;
+padding: 48px 0;
+}
+
+
+.cards {
+    color: #1f2937cc;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    gap: 48px;
+
+}
+
+.cards img {
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.container-three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 96px 250px; 
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+  font-weight: 700; 
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 48px;
+ 
+}
+
