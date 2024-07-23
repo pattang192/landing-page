@@ -40,7 +40,7 @@ ul {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.900);
-    padding: 8px;
+    padding: 12px;
 }
 
 .content {
@@ -63,14 +63,17 @@ a {
 }
 
 button {
-    padding: 8px 32px;
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 700;
     background-color: #3882F6;
-    border: none;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px; 
     border-radius: 8px;
+}
 
+.hero-button {
+    padding: 8px 32px;    
+       
+    border: none;
 }
 
 .image-one {
@@ -132,7 +135,8 @@ padding: 48px 0;
 }
 
 .author {
-  font-weight: 700; 
+  font-weight: 700;
+  font-size: 24px;
   display: flex;
   justify-content: flex-end;
   padding-right: 48px;
@@ -141,11 +145,11 @@ padding: 48px 0;
 
 .container-four {
     display: flex;
-    gap: 48px;
+    gap: 72px;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 48px 160px;
-    margin: 48px;
+    padding: 48px 136px;
+    margin: 96px;
     border-radius: 10px;
 
 }
@@ -162,9 +166,8 @@ padding: 48px 0;
 
 .banner-button {
     border: 2px solid #F9FAF8;
-    border-radius: 8px;
-    font-size: 16px;
-    
+    height: 40px;
+    padding: 0 32px;
 }
 
 .footer {
