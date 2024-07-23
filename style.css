@@ -82,6 +82,7 @@ button {
     height: 50%;
 }
 
+
 .container-two {
     display: flex;
     flex-direction: column;
@@ -122,7 +123,7 @@ padding: 48px 0;
     flex-direction: column;
     align-items: center;    
 }
-
+/*
 .container-three {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -140,5 +141,5 @@ padding: 48px 0;
   justify-content: flex-end;
   padding-right: 48px;
  
-}
+}*/
 
